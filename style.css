@@ -1,0 +1,306 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    line-height: 30px;
+}
+
+
+
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10px 5px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.common-button {
+    display: inline-block;
+    padding: 16px 12px;
+    background-image: linear-gradient(red, tomato);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+    margin: 10px 0;
+  
+
+}
+
+
+.primary {
+    color: #ff5959;
+}
+
+
+
+
+
+
+
+.banner-background {
+    background-image: url(Donate-duc/donate-today-main/images/donation7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 125px 25px;
+    
+}
+
+.content-box {
+    max-width: 80%;
+    text-align: center;
+    background-color: rgba(17, 17, 17, 0.401);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.banner-heading {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #fff;
+}
+
+.short-description {
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 0;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+.Donate {
+    margin-top: 50px;
+}
+
+.donate-heading,
+.plan-head,
+.gallary-head,
+.update-head {
+    font-size: 45px;
+    color: #444343;
+    text-align: center;
+    margin: 10px 0 20px 0;
+    font-weight: 700;
+}
+
+.donate-paragraph,
+.plan-describe,
+.update-describe {
+    text-align: center;
+    line-height: 30px;
+    color: #121212;
+}
+
+
+
+
+.amount-row {
+    margin-top: 70px;
+}
+
+.amount-card {
+    text-align: center;
+    height: 140px;
+    width: 180px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-flex-group: rgb(245, 248, 250);
+}
+
+.amount-card h2 {
+    line-height: 140px;
+    font-weight: 700;
+}
+
+.amount-card .small {
+    font-size: 16px;
+}
+
+.active {
+    color: #ff5959;
+    border-color: #ff5959;
+    background: #ff59592c;
+}
+
+
+
+
+.donation-form input {
+    width: 100%;
+    border-bottom: 2px solid rgb(134, 133, 133);
+    background-color: rgb(252, 253, 255);
+    height: 50px;
+    margin-top: 60px;
+}
+
+.botom-row {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.plan {
+    margin-top: 70px;
+}
+
+.card-row {
+    margin-top: 50px;
+}
+
+.plan-card {
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.plan-card p {
+    line-height: 30px;
+    color: #121212;
+    margin-top: 15px;
+}
+
+.plan-img {
+    margin-top: 30px;
+}
+
+.plan-card-head {
+    font-size: 24px;
+    color: #121212;
+    margin-top: 15px;
+}
+
+.card1 {
+    background: #4f9da61a;
+}
+
+.card2 {
+    background: #ff59591a;
+}
+
+.card3 {
+    background: #fff4d6;
+}
+
+
+.gallary {
+    margin-top: 50px;
+}
+
+.gallary-head {
+    margin-bottom: 10px;
+}
+
+.gallary-parent img {
+    max-width: 33%;
+}
+
+.gallary-describe {
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.second-row {
+    margin-top: 10px;
+}
+
+
+.updates {
+    margin-top: 70px;
+}
+
+.thiner-width {
+    width: 70%;
+    margin: auto;
+}
+
+.form-parent {
+    text-align: center;
+    padding: 90px 40px;
+    border-radius: 8px;
+    background: #fff4d6;
+    margin: 30px 0;
+}
+
+.updates-form input {
+    display: inline-block;
+    height: 58px;
+    width: 400px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin: 0;
+    margin-right: -5px;
+}
+
+.updates-form .common-button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+    top: 2px;
+    padding: 16px 28px;
+}
+
+
+footer {
+    padding: 70px 0;
+    text-align: center;
+    background-color: #0e0520;
+}
+
+footer h1 {
+    color: #ff5959;
+    font-size: 45px;
+    font-style: italic;
+    font-family: "Lobster", cursive;
+    margin: 10px 0;
+}
+
+footer p {
+    color: #fff;
+}
